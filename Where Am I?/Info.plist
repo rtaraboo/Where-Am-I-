@@ -26,6 +26,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>GIVE ME PERMISSION TO STALK YOU!!!</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I ALWAYS WANT TO KNOW!!!</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

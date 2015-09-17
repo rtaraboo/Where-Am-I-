@@ -14,6 +14,7 @@
 		733405901BAB40630061EE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7334058E1BAB40630061EE8B /* LaunchScreen.storyboard */; };
 		7334059B1BAB40630061EE8B /* Where_Am_I_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7334059A1BAB40630061EE8B /* Where_Am_I_Tests.swift */; };
 		733405A61BAB40630061EE8B /* Where_Am_I_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733405A51BAB40630061EE8B /* Where_Am_I_UITests.swift */; };
+		733405B41BAB40820061EE8B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733405B31BAB40820061EE8B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		733405A11BAB40630061EE8B /* Where Am I?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am I?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733405A51BAB40630061EE8B /* Where_Am_I_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_I_UITests.swift; sourceTree = "<group>"; };
 		733405A71BAB40630061EE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		733405B31BAB40820061EE8B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				733405B41BAB40820061EE8B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		733405791BAB40630061EE8B = {
 			isa = PBXGroup;
 			children = (
+				733405B31BAB40820061EE8B /* CoreLocation.framework */,
 				733405841BAB40630061EE8B /* Where Am I? */,
 				733405991BAB40630061EE8B /* Where Am I?Tests */,
 				733405A41BAB40630061EE8B /* Where Am I?UITests */,
